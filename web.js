@@ -5,7 +5,7 @@ var htmlimport = fs.readFileSync('index.html');
 
 app.get('/', function(request, response) {
    
-    response.writeHead(200,{ 'Content-type' 'text/html charset=utf-8';
+    response.writeHead(200,{ 'Content-type': 'text/html; charset=utf-8';
 });
     response.end(htmlimport);
 });
